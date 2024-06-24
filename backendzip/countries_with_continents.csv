@@ -1,0 +1,231 @@
+id,name,code,continent
+1,Andorra,ad,Europe
+2,United Arab Emirates,ae,Asia
+3,Afghanistan,af,Asia
+4,Antigua and Barbuda,ag,North America
+5,Anguilla,ai,North America
+6,Albania,al,Europe
+7,Armenia,am,Asia
+8,Netherlands Antilles,an,North America
+9,Angola,ao,Africa
+10,Argentina,ar,South America
+11,Austria,at,Europe
+12,Australia,au,Oceania
+13,Aruba,aw,North America
+14,Azerbaijan,az,Asia
+15,Bosnia and Herzegovina,ba,Europe
+16,Barbados,bb,North America
+17,Bangladesh,bd,Asia
+18,Belgium,be,Europe
+19,Burkina Faso,bf,Africa
+20,Bulgaria,bg,Europe
+21,Bahrain,bh,Asia
+22,Burundi,bi,Africa
+23,Benin,bj,Africa
+24,Bermuda,bm,North America
+25,Brunei Darussalam,bn,Asia
+26,Bolivia,bo,South America
+27,Brazil,br,South America
+28,Bahamas,bs,North America
+29,Bhutan,bt,Asia
+30,Botswana,bw,Africa
+31,Belarus,by,Europe
+32,Belize,bz,North America
+33,Canada,ca,North America
+34,Cocos (Keeling) Islands,cc,Asia
+35,Democratic Republic of the Congo,cd,Africa
+36,Central African Republic,cf,Africa
+37,Congo,cg,Africa
+38,Switzerland,ch,Europe
+39,Cote D'Ivoire (Ivory Coast),ci,Africa
+40,Cook Islands,ck,Oceania
+41,Chile,cl,South America
+42,Cameroon,cm,Africa
+43,China,cn,Asia
+44,Colombia,co,South America
+45,Costa Rica,cr,North America
+46,Cuba,cu,North America
+47,Cape Verde,cv,Africa
+48,Christmas Island,cx,Asia
+49,Cyprus,cy,Europe
+50,Czech Republic,cz,Europe
+51,Germany,de,Europe
+52,Djibouti,dj,Africa
+53,Denmark,dk,Europe
+54,Dominica,dm,North America
+55,Dominican Republic,do,North America
+56,Algeria,dz,Africa
+57,Ecuador,ec,South America
+58,Estonia,ee,Europe
+59,Egypt,eg,Africa
+60,Western Sahara,eh,Africa
+61,Eritrea,er,Africa
+62,Spain,es,Europe
+63,Ethiopia,et,Africa
+64,Finland,fi,Europe
+65,Fiji,fj,Oceania
+66,Falkland Islands (Malvinas),fk,South America
+67,Federated States of Micronesia,fm,Oceania
+68,Faroe Islands,fo,Europe
+69,France,fr,Europe
+70,Gabon,ga,Africa
+71,Great Britain (UK),gb,Europe
+72,Grenada,gd,North America
+73,Georgia,ge,Asia
+74,French Guiana,gf,South America
+75,NULL,gg,Europe
+76,Ghana,gh,Africa
+77,Gibraltar,gi,Europe
+78,Greenland,gl,North America
+79,Gambia,gm,Africa
+80,Guinea,gn,Africa
+81,Guadeloupe,gp,North America
+82,Equatorial Guinea,gq,Africa
+83,Greece,gr,Europe
+84,S. Georgia and S. Sandwich Islands,gs,Antarctica
+85,Guatemala,gt,North America
+86,Guinea-Bissau,gw,Africa
+87,Guyana,gy,South America
+88,Hong Kong,hk,Asia
+89,Honduras,hn,North America
+90,Croatia (Hrvatska),hr,Europe
+91,Haiti,ht,North America
+92,Hungary,hu,Europe
+93,Indonesia,id,Asia
+94,Ireland,ie,Europe
+95,Israel,il,Asia
+96,India,in,Asia
+97,Iraq,iq,Asia
+98,Iran,ir,Asia
+99,Iceland,is,Europe
+100,Italy,it,Europe
+101,Jamaica,jm,North America
+102,Jordan,jo,Asia
+103,Japan,jp,Asia
+104,Kenya,ke,Africa
+105,Kyrgyzstan,kg,Asia
+106,Cambodia,kh,Asia
+107,Kiribati,ki,Oceania
+108,Comoros,km,Africa
+109,Saint Kitts and Nevis,kn,North America
+110,Korea (North),kp,Asia
+111,Korea (South),kr,Asia
+112,Kuwait,kw,Asia
+113,Cayman Islands,ky,North America
+114,Kazakhstan,kz,Asia
+115,Laos,la,Asia
+116,Lebanon,lb,Asia
+117,Saint Lucia,lc,North America
+118,Liechtenstein,li,Europe
+119,Sri Lanka,lk,Asia
+120,Liberia,lr,Africa
+121,Lesotho,ls,Africa
+122,Lithuania,lt,Europe
+123,Luxembourg,lu,Europe
+124,Latvia,lv,Europe
+125,Libya,ly,Africa
+126,Morocco,ma,Africa
+127,Monaco,mc,Europe
+128,Moldova,md,Europe
+129,Madagascar,mg,Africa
+130,Marshall Islands,mh,Oceania
+131,Macedonia,mk,Europe
+132,Mali,ml,Africa
+133,Myanmar,mm,Asia
+134,Mongolia,mn,Asia
+135,Macao,mo,Asia
+136,Northern Mariana Islands,mp,Oceania
+137,Martinique,mq,North America
+138,Mauritania,mr,Africa
+139,Montserrat,ms,North America
+140,Malta,mt,Europe
+141,Mauritius,mu,Africa
+142,Maldives,mv,Asia
+143,Malawi,mw,Africa
+144,Mexico,mx,North America
+145,Malaysia,my,Asia
+146,Mozambique,mz,Africa
+147,Namibia,na,Africa
+148,New Caledonia,nc,Oceania
+149,Niger,ne,Africa
+150,Norfolk Island,nf,Oceania
+151,Nigeria,ng,Africa
+152,Nicaragua,ni,North America
+153,Netherlands,nl,Europe
+154,Norway,no,Europe
+155,Nepal,np,Asia
+156,Nauru,nr,Oceania
+157,Niue,nu,Oceania
+158,New Zealand (Aotearoa),nz,Oceania
+159,Oman,om,Asia
+160,Panama,pa,North America
+161,Peru,pe,South America
+162,French Polynesia,pf,Oceania
+163,Papua New Guinea,pg,Oceania
+164,Philippines,ph,Asia
+165,Pakistan,pk,Asia
+166,Poland,pl,Europe
+167,Saint Pierre and Miquelon,pm,North America
+168,Pitcairn,pn,Oceania
+169,Palestinian Territory,ps,Asia
+170,Portugal,pt,Europe
+171,Palau,pw,Oceania
+172,Paraguay,py,South America
+173,Qatar,qa,Asia
+174,Reunion,re,Africa
+175,Romania,ro,Europe
+176,Russian Federation,ru,Europe
+177,Rwanda,rw,Africa
+178,Saudi Arabia,sa,Asia
+179,Solomon Islands,sb,Oceania
+180,Seychelles,sc,Africa
+181,Sudan,sd,Africa
+182,Sweden,se,Europe
+183,Singapore,sg,Asia
+184,Saint Helena,sh,Africa
+185,Slovenia,si,Europe
+186,Svalbard and Jan Mayen,sj,Europe
+187,Slovakia,sk,Europe
+188,Sierra Leone,sl,Africa
+189,San Marino,sm,Europe
+190,Senegal,sn,Africa
+191,Somalia,so,Africa
+192,Suriname,sr,South America
+193,Sao Tome and Principe,st,Africa
+194,El Salvador,sv,North America
+195,Syria,sy,Asia
+196,Swaziland,sz,Africa
+197,Turks and Caicos Islands,tc,North America
+198,Chad,td,Africa
+199,French Southern Territories,tf,Antarctica
+200,Togo,tg,Africa
+201,Thailand,th,Asia
+202,Tajikistan,tj,Asia
+203,Tokelau,tk,Oceania
+204,Turkmenistan,tm,Asia
+205,Tunisia,tn,Africa
+206,Tonga,to,Oceania
+207,Turkey,tr,Asia
+208,Trinidad and Tobago,tt,North America
+209,Tuvalu,tv,Oceania
+210,Taiwan,tw,Asia
+211,Tanzania,tz,Africa
+212,Ukraine,ua,Europe
+213,Uganda,ug,Africa
+214,Uruguay,uy,South America
+215,Uzbekistan,uz,Asia
+216,Saint Vincent and the Grenadines,vc,North America
+217,Venezuela,ve,South America
+218,Virgin Islands (British),vg,North America
+219,Virgin Islands (U.S.),vi,North America
+220,Viet Nam,vn,Asia
+221,Vanuatu,vu,Oceania
+222,Wallis and Futuna,wf,Oceania
+223,Samoa,ws,Oceania
+224,Yemen,ye,Asia
+225,Mayotte,yt,Africa
+226,South Africa,za,Africa
+227,Zambia,zm,Africa
+228,Zaire (former),zr,Africa
+229,Zimbabwe,zw,Africa
+230,United States of America,us,North America

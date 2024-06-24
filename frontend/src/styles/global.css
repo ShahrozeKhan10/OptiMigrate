@@ -1,0 +1,441 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply box-border;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  /* .btn {
+    @apply mr-2 inline-block rounded bg-blue-600 px-7 py-3 text-sm font-medium uppercase leading-snug text-white shadow-md transition duration-150 ease-in-out hover: bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg;
+  } */
+}
+.gradient-button {
+  background-image: linear-gradient(to right, #0088ff, #2d4cbe, #42276d);
+}
+.gradient-button1 {
+  background-image: linear-gradient(to right, #0088ff, #2d4cbe, #42276d);
+}
+.gradient-button2 {
+  background: linear-gradient(105.75deg, #f6693b 0%, #738aa6 106.94%);
+}
+.gradient-button3 {
+  background-image: linear-gradient(105.75deg, #f65420 0%, #49668b 106.94%);
+}
+
+/* , */
+#footer::before {
+  content: '';
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* bottom: 10px; */
+  /* left: auto; */
+  background-image: url('src//assets//svgs//globeFooter.svg');
+  animation: globe 20s linear infinite;
+  background-size: 100% 100%;
+  /* z-index: 9999; */
+}
+
+@keyframes globe {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.boat {
+  animation: boatAnimation 5s linear infinite;
+}
+
+:root {
+  --font-libreBaskerville: 'Libre Baskerville', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+@keyframes boatAnimation {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  25% {
+    transform: translateX(7px) rotate(3deg);
+  }
+  50% {
+    transform: translateX(0) rotate(0deg);
+  }
+  75% {
+    transform: translateX(-7px) rotate(-3deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.airplane {
+  animation: airplaneAnimation 1.5s linear forwards;
+}
+
+@keyframes airplaneAnimation {
+  0% {
+    transform: translateX(-20%) translateY(-100%) translateZ(-150px) scale(0.5);
+  }
+  100% {
+    transform: translateX(100%) translateY(0) translateZ(0) scale(1);
+  }
+}
+
+.cart {
+  animation: cartAnimation 1.5s linear forwards;
+}
+
+@keyframes cartAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bgSand {
+    background-size: cover !important;
+    height: 130px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 430px) {
+  .bgSand2 {
+    background-size: cover !important;
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 460px) {
+  .bgSand3 {
+    background-size: cover !important;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 489px) {
+  .bgSand4 {
+    background-size: cover !important;
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 489px) and (max-width: 510px) {
+  .bgSand5 {
+    background-size: cover !important;
+    height: 165px;
+  }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 529px) {
+  .bgSand6 {
+    background-size: cover !important;
+    height: 172px;
+  }
+}
+
+@media only screen and (min-width: 529px) and (max-width: 552px) {
+  .bgSand7 {
+    background-size: cover !important;
+    height: 180px;
+  }
+}
+
+@media only screen and (min-width: 552px) and (max-width: 576px) {
+  .bgSand7 {
+    background-size: cover !important;
+    height: 187px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 600px) {
+  .bgSand8 {
+    background-size: cover !important;
+    height: 195px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 640px) {
+  .bgSand9 {
+    background-size: cover !important;
+    height: 205px;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 667px) {
+  .bgSand10 {
+    background-size: cover !important;
+    height: 212px;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 700px) {
+  .bgSand11 {
+    background-size: cover !important;
+    height: 222px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 727px) {
+  .bgSand12 {
+    background-size: cover !important;
+    height: 230px;
+  }
+}
+
+@media only screen and (min-width: 727px) and (max-width: 750px) {
+  .bgSand13 {
+    background-size: cover !important;
+    height: 238px;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 768px) {
+  .bgSand14 {
+    background-size: cover !important;
+    height: 245px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 788px) {
+  .bgSand15 {
+    background-size: cover !important;
+    height: 252px;
+  }
+}
+
+@media only screen and (min-width: 788px) and (max-width: 810px) {
+  .bgSand16 {
+    background-size: cover !important;
+    height: 260px;
+  }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 835px) {
+  .bgSand17 {
+    background-size: cover !important;
+    height: 268px;
+  }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 860px) {
+  .bgSand18 {
+    background-size: cover !important;
+    height: 275px;
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 885px) {
+  .bgSand19 {
+    background-size: cover !important;
+    height: 282px;
+  }
+}
+@media only screen and (min-width: 885px) and (max-width: 905px) {
+  .bgSand20 {
+    background-size: cover !important;
+    height: 290px;
+  }
+}
+@media only screen and (min-width: 905px) and (max-width: 930px) {
+  .bgSand21 {
+    background-size: cover !important;
+    height: 297px;
+  }
+}
+@media only screen and (min-width: 930px) and (max-width: 950px) {
+  .bgSand22 {
+    background-size: cover !important;
+    height: 305px;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 970px) {
+  .bgSand23 {
+    background-size: cover !important;
+    height: 312px;
+  }
+}
+@media only screen and (min-width: 970px) and (max-width: 990px) {
+  .bgSand24 {
+    background-size: cover !important;
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1010px) {
+  .bgSand25 {
+    background-size: cover !important;
+    height: 328px;
+  }
+}
+@media only screen and (min-width: 1010px) and (max-width: 1030px) {
+  .bgSand26 {
+    background-size: cover !important;
+    height: 335px;
+  }
+}
+@media only screen and (min-width: 1030px) and (max-width: 1050px) {
+  .bgSand27 {
+    background-size: cover !important;
+    height: 342px;
+  }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1070px) {
+  .bgSand28 {
+    background-size: cover !important;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 1070px) and (max-width: 1090px) {
+  .bgSand29 {
+    background-size: cover !important;
+    height: 358px;
+  }
+}
+@media only screen and (min-width: 1090px) and (max-width: 1120px) {
+  .bgSand30 {
+    background-size: cover !important;
+    height: 365px;
+  }
+}
+@media only screen and (min-width: 1120px) and (max-width: 1150px) {
+  .bgSand31 {
+    background-size: cover !important;
+    height: 372px;
+  }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1180px) {
+  .bgSand32 {
+    background-size: cover !important;
+    height: 380px;
+  }
+}
+@media only screen and (min-width: 1180px) and (max-width: 1210px) {
+  .bgSand33 {
+    background-size: cover !important;
+    height: 387px;
+  }
+}
+@media only screen and (min-width: 1210px) and (max-width: 1230px) {
+  .bgSand34 {
+    background-size: cover !important;
+    height: 395px;
+  }
+}
+@media only screen and (min-width: 1230px) and (max-width: 1250px) {
+  .bgSand35 {
+    background-size: cover !important;
+    height: 402px;
+  }
+}
+@media only screen and (min-width: 1250px) and (max-width: 1270px) {
+  .bgSand36 {
+    background-size: cover !important;
+    height: 410px;
+  }
+}
+@media only screen and (min-width: 1270px) and (max-width: 1280px) {
+  .bgSand37 {
+    background-size: cover !important;
+    height: 416px;
+  }
+}
+
+/* Your CSS stylesheet */
+.slide-in {
+  animation: slideIn 0.4s ease-in-out forwards;
+}
+
+.slide-out {
+  animation: slideOut 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.shadow-custom-color {
+  box-shadow: 3px 4px 10px #f6bf46;
+  background-color: #f7d07a;
+  padding: 5px;
+}
+
+
+.react-datepicker__current-month,
+.react-datepicker__navigation, .react-datepicker__header {
+  background-color: white; 
+  color: black; 
+}
+
+.react-datepicker__header{
+  background-color: white !important;;  
+  color: black !important;
+  border-bottom: none !important;
+}
+
+.react-datepicker__year-dropdown, .react-datepicker__month-dropdown, .react-datepicker__month-year-dropdown {
+  background-color: white !important;;  
+  color: black !important;
+}

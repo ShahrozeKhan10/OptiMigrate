@@ -1,0 +1,60 @@
+-- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: optimigrate
+-- ------------------------------------------------------
+-- Server version	8.4.0
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `attachments`
+--
+
+DROP TABLE IF EXISTS `attachments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `attachments` (
+  `id` char(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `key` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `type` enum('cv','profile','project','other') DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `user_id` char(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `project_id` char(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `project_id` (`project_id`),
+  CONSTRAINT `attachments_ibfk_1` FOREIGN KEY (`project_id`) REFERENCES `projects` (`id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `attachments`
+--
+
+LOCK TABLES `attachments` WRITE;
+/*!40000 ALTER TABLE `attachments` DISABLE KEYS */;
+INSERT INTO `attachments` VALUES ('184a6d4c-b8d6-423c-9439-d9979e6fe90b',NULL,NULL,NULL,NULL,'3054c0a8-149f-47b5-8279-a122582b0c80',NULL,'2024-05-26 18:07:56','2024-05-26 18:07:56'),('2335f0c7-448e-45fd-add8-44ca2889f683',NULL,NULL,NULL,NULL,'8f7c61a0-fc37-4ddd-9b16-d747e52c0d7a',NULL,'2024-06-02 05:52:24','2024-06-02 05:52:24'),('3833e082-6e02-4baf-b966-a4d66b19a5ce',NULL,NULL,NULL,NULL,'96f1faee-a072-469d-bd0c-f61042ed367c',NULL,'2024-06-02 05:58:37','2024-06-02 05:58:37'),('550e0fbc-c5e9-4831-9c5a-22f00993ac3f',NULL,NULL,NULL,NULL,'d0abc267-eaa4-448f-bbbf-e4870a49a1ac',NULL,'2024-06-01 09:48:07','2024-06-01 09:48:07'),('75be8594-6dd7-4388-a086-71953fc0cec6',NULL,NULL,NULL,NULL,'0b9666b7-afb9-4307-bfdb-14e4571cee25',NULL,'2024-06-02 05:16:02','2024-06-02 05:16:02'),('c09f68a3-db3f-4233-b57c-1bbf4c848e00',NULL,NULL,NULL,NULL,'bfe00425-9e8e-4bb2-8e42-370f8fa58fa1',NULL,'2024-06-02 05:54:31','2024-06-02 05:54:31');
+/*!40000 ALTER TABLE `attachments` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-06-22  6:37:22
